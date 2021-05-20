@@ -43,66 +43,68 @@
         </div>
     </nav>
     <!-- NavBar ends here -->
+
     <!-- Main Grid Stars here -->
-    <div id="home"class="container mt-5">
+    <div id="home"class="container">
+    
     <!-- Page Title -->
         <div id="title" class="container text-center mt-5">
             <h1>VINTAGE CARS FOR HIRE</h1>
         </div>
 
     <!-- Car Listings starts here -->
-    <div id="cars" class="container mt-5">
-        <div class="row">
-                    <!-- card 1   -->
-                    <div class="col">
-                        <div class="card ç" style="width: 18rem">
-                            <img src="images/1.jpg" class="card-img-top imgstyle" alt="red volkswagen vintage car" />
-                            <div class="card-body">
-                                <h5 class="card-text text-center">Red volkswagen</h5>
-                                <p class="card-text mt-3">Car Type: Has wheels and drives</p>
-                                <p class="card-text">Doors: 2</p>
-                            </div>
+        <div id="cars" class="container mt-5">         
+            <div class="row">
+                <!-- card 1   -->
+                <div class="col">
+                    <div class="card mb-3" style="width: 18rem">
+                        <img src="images/1.jpg" class="card-img-top imgstyle" alt="red volkswagen vintage car" />
+                        <div class="card-body">
+                            <h5 class="card-text text-center">Red volkswagen</h5>
+                            <p class="card-text mt-3">Car Type: Has wheels and drives</p>
+                            <p class="card-text">Doors: 2</p>
                         </div>
                     </div>
-                    <!-- card 2 -->
-                    <div class="col">
-                        <div class="card" style="width: 18rem">
-                            <img src="images/2.jpg" class="card-img-top imgstyle" alt="blue chevrolet vintage car" />
-                            <div class="card-body">
-                                <h5 class="card-text text-center">Blue Chevrolet</h5>
-                                <p class="card-text mt-3">Car Type: Has wheels and drives</p>
-                                <p class="card-text">Doors: 2</p>
-                            </div>
+                </div>
+                <!-- card 2 -->
+                <div class="col">
+                    <div class="card mb-3" style="width: 18rem">
+                        <img src="images/2.jpg" class="card-img-top imgstyle" alt="blue chevrolet vintage car" />
+                        <div class="card-body">
+                            <h5 class="card-text text-center">Blue Chevrolet</h5>
+                            <p class="card-text mt-3">Car Type: Has wheels and drives</p>
+                            <p class="card-text">Doors: 2</p>
                         </div>
                     </div>
-                    <!-- card 3 -->
-                    <div class="col">
-                        <div class="card" style="width: 18rem">
-                            <img src="images/3.jpg" class="card-img-top imgstyle" alt="red chevrolet vintage car" />
-                            <div class="card-body">
-                                <h5 class="card-text text-center">Red Chevrolet</h5>
-                                <p class="card-text mt-3">Car Type: Has wheels and drives</p>
-                                <p class="card-text">Doors: 2</p>
-                            </div>
+                </div>
+                <!-- card 3 -->
+                <div class="col">
+                    <div class="card mb-3" style="width: 18rem">
+                        <img src="images/3.jpg" class="card-img-top imgstyle" alt="red chevrolet vintage car" />
+                        <div class="card-body">
+                            <h5 class="card-text text-center">Red Chevrolet</h5>
+                            <p class="card-text mt-3">Car Type: Has wheels and drives</p>
+                            <p class="card-text">Doors: 2</p>
                         </div>
                     </div>
-                    <!-- card 4 -->
-                    <div class="col">
-                        <div class="card" style="width: 18rem">
-                            <img src="images/4.jpg" class="card-img-top imgstyle" alt="black porsche vintage car" />
-                            <div class="card-body">
-                                <h5 class="card-text text-center">Black Porsche</h5>
-                                <p class="card-text mt-3">Car Type: Has wheels and drives</p>
-                                <p class="card-text">Doors: 2</p>
-                            </div>
+                </div>
+                <!-- card 4 -->
+                <div class="col">
+                    <div class="card mb-3" style="width: 18rem">
+                        <img src="images/4.jpg" class="card-img-top imgstyle" alt="black porsche vintage car" />
+                        <div class="card-body">
+                            <h5 class="card-text text-center">Black Porsche</h5>
+                            <p class="card-text mt-3">Car Type: Has wheels and drives</p>
+                            <p class="card-text">Doors: 2</p>
                         </div>
                     </div>
-        </div>  
-     </div>     
+                </div>   
+            </div>  
+        </div>     
     <!-- Car Listings ends here -->
 
     <!-- Enquire Form starts here -->
-        <div id="enquires" class="container mt-5 formbackground">
+        <div id="enquires" class="container mt-5 p-4 formbackground">
             <form>
                 <fieldset>
                 <legend>Enquire About A Car</legend>
@@ -117,8 +119,8 @@
                     aria-describedby="emailHelp" />
                     </div>
                     <div class="mb-3">
-                    <label for="disabledSelect" class="form-label">Choose a Car</label>
-                    <select id="disabledSelect" class="form-select">
+                    <label for="select" class="form-label">Choose a Car</label>
+                    <select id="select" class="form-select">
                         <option>Open this select menu</option>
                         <option>Vintage Red volkswagen</option>
                         <option>Vintage Blue Chevrolet</option>
@@ -128,9 +130,10 @@
                     </div>
                     <div class="mb-3">
                     <label for="comments" class="form-label">Comments</label>
-                    <input type="text" id="comments" class="form-control" rows="20" aria-describedby="comments" />
-                    </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                    <textarea type="text" id="comments" class="form-control " rows="5" aria-describedby="comments">
+
+                    </textarea>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
                 </fieldset>
             </form>
         </div>
@@ -144,13 +147,20 @@
                 <p>Adress: 27 Nowhere Street, Sydney NSW 2011</p>
                 <p>Phone: 123456789</p>
                 <a href="#">info@notvalid.com<ap>
-            </address>    
+            </address>   
+            <!-- Map  -->
+            <div id="contact" class="container">    
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.65967549649!2d151.20227891521043!3d-33.872660580655065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3eaaac82ed%3A0xdec587ba492a43cd!2s48%20Druitt%20St%2C%20Sydney%20NSW%202000!5e0!3m2!1sen!2sau!4v1621483314931!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>    
+            </div>
         </div>
-
+    <!-- Back to Top-->
+        <div id="baktop" class="container text-end mt-5"> 
+            <button type="button" class="btn btn-link" href="#home">Back to Top</button>
+        </div>
     <!-- Footer  -->
         <div id="footer" class="container text-center mt-5">
             <footer>
-                <p>Copyright GenAus All rights reserved 2021</p>
+                <p>Copyright Gen Aus All rights reserved 2021 - All images by Pixabay</p>
             </footer>    
         </div>
     </div>
